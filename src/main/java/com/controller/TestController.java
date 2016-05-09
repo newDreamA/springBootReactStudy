@@ -18,6 +18,15 @@ public class TestController {
     public String getTest(){
         return "test";
     }
+
+    @RequestMapping(value="/helloWorld",method = RequestMethod.GET)
+    public String getHelloWorld(){
+        return "helloWorld";
+    }
+    @RequestMapping(value="/comment",method = RequestMethod.GET)
+    public String getComment(){
+        return "comment";
+    }
 }
 
 
